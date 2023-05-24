@@ -5,3 +5,9 @@
 3. make config affect ```source ~/.zshrc``` 
 4. 查询ip地址：```curl ipinfo.io```
 5. 启用代理再查询ip地址：```proxy```+```curl ipinfo.io```
+
+## [添加brew到系统变量](https://blog.51cto.com/u_15655559/5530796)
+1.`echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.bash_profile ` :将文件输入到.bash_profile文件path变量中
+2. `source ~/.bash_profile`:执行修改
+3. `echo 'export  PATH="/opt/homebrew/bin/:$PATH"' >>~/.zshrc   
+4. `source ~/.zshrc`
