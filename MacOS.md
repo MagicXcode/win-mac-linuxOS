@@ -11,3 +11,30 @@
 2. `source ~/.bash_profile`:执行修改
 3. `echo 'export  PATH="/opt/homebrew/bin/:$PATH"' >>~/.zshrc   
 4. `source ~/.zshrc`
+## `brew list 软件名称`显示软件的安装路径
+## 命令前加`sudo`为管理员执行
+## 命令走代理
+1.git
+
+设置端口代理
+```
+git config --global http.proxy http://127.0.0.1:1088
+git config --global https.proxy https://127.0.0.1:1088
+```
+取消代理
+```
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+2.npm
+
+取消代理
+```
+npm config delete proxy
+npm config delete https-proxy
+设置代理
+```
+npm config set proxy http://127.0.0.1:1088
+npm config set https-proxy http://127.0.0.1:1088
+npm config set strict-ssl false
+```
