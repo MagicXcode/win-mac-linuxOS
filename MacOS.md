@@ -37,4 +37,4 @@ npm config delete https-proxy
 npm config set proxy http://127.0.0.1:1088
 npm config set https-proxy http://127.0.0.1:1088
 npm config set strict-ssl false
-```
+
