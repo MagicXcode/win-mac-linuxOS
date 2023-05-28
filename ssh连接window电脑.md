@@ -1,3 +1,5 @@
+[window打开ssh服务器](https://cloud.tencent.com/developer/article/1420930)
+
 在Windows上，原生的SSH服务器并不支持。然而，您可以通过安装第三方软件来实现SSH服务器功能，并使用SSH客户端连接到Windows电脑。
 
 以下是一种常用的方法，可以使用开源工具OpenSSH来在Windows上搭建SSH服务器：
