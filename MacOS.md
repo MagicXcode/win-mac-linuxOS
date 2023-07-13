@@ -38,3 +38,5 @@ npm config set proxy http://127.0.0.1:1088
 npm config set https-proxy http://127.0.0.1:1088
 npm config set strict-ssl false
 
+## 给文件添加读写权限
+`sudo chmod -R 777 文件夹路径`
